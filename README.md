@@ -16,7 +16,7 @@ A simple GUI application that converts Python (.py) files to standalone executab
 ## Requirements
 
 - Python 3.6 or higher
-- PyInstaller (automatically installed if missing)
+- PyInstaller
 - tkinter (usually comes with Python)
 
 ## Installation

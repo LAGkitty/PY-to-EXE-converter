@@ -21,36 +21,24 @@ A simple GUI application that converts Python (.py) files to standalone executab
 
 ## Installation
 
-### Option 1: Install from Source
-
-1. Clone the repository:
+1. Install Python 3.6 or higher if you don't have it already
+2. Save the `py_to_exe_converter.py` file to your computer
+3. Open a command prompt or terminal and navigate to the folder containing the file
+4. Install PyInstaller (if not already installed):
    ```
-   git clone https://github.com/yourusername/py-to-exe-converter.git
-   cd py-to-exe-converter
+   pip install pyinstaller
    ```
-
-2. Install dependencies:
-   ```
-   pip install -r requirements.txt
-   ```
-
-3. Run the application:
+5. Run the application:
    ```
    python py_to_exe_converter.py
    ```
-
-### Option 2: Download Pre-built Executable
-
-1. Go to the [Releases](https://github.com/yourusername/py-to-exe-converter/releases) page
-2. Download the latest version for your operating system
-3. Extract the zip file and run the executable
 
 ## Usage Guide
 
 ### Converting a Python Script
 
 1. **Launch the Application**
-   - Double-click the executable or run `python py_to_exe_converter.py`
+   - Run `python py_to_exe_converter.py` in your terminal/command prompt
 
 2. **Select Your Python Script**
    - Click the "Browse" button next to "Python Script"
@@ -82,26 +70,6 @@ A simple GUI application that converts Python (.py) files to standalone executab
    - Your executable will be available in the specified output directory
    - The file name will be the same as your Python script but with the `.exe` extension
 
-## Creating a requirements.txt File
-
-For GitHub and proper installation, create a `requirements.txt` file in your project root with the following content:
-
-```
-pyinstaller>=5.1
-```
-
-## Project Structure
-
-```
-py-to-exe-converter/
-├── py_to_exe_converter.py      # Main application file
-├── requirements.txt            # Project dependencies
-├── LICENSE                     # License information
-├── README.md                   # This readme file
-└── assets/                     # Optional folder for icons and images
-    └── icon.ico                # Application icon
-```
-
 ## Common Issues and Solutions
 
 ### "PyInstaller not found" Error
@@ -119,26 +87,3 @@ py-to-exe-converter/
 ### Large File Size
 - PyInstaller bundles Python and all dependencies into the executable
 - Use virtual environments with only necessary packages installed
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Acknowledgments
-
-- [PyInstaller](https://pyinstaller.org/) for the amazing packaging tool
-- [Tkinter](https://docs.python.org/3/library/tkinter.html) for the GUI framework
-
----
-
-**Note**: This project is maintained by [Your Name]. For support, please open an issue on GitHub.

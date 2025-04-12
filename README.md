@@ -1,5 +1,7 @@
 # Python to EXE Converter
 
+IT WAS ALL GENERATED WITH CLAUDE AI BECAUSE OTHER CHAT MODELS ARE DUMB AND CAN'T DO IT
+
 A simple GUI application that converts Python (.py) files to standalone executable (.exe) files using PyInstaller.
 
 ## Features
